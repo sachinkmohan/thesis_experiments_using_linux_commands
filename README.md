@@ -7,3 +7,7 @@
 - Added `tegrastats_cut.sh` script to cut the data from `tegrastats.txt`. This will look for "RAM" keyword and outputs the appropriate fields from that line. 
 
 Reference -> https://blog.knoldus.com/play-with-text-in-linux-grep-cut-awk-sed/
+
+Additonal monitoring -> https://phoenixnap.com/kb/check-cpu-usage-load-linux
+
+mpstat usage guide -> https://www.virtono.com/community/tutorial-how-to/linux-cpu-performance-measurements-with-mpstat/
