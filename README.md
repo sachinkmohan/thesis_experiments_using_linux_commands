@@ -11,3 +11,5 @@ Reference -> https://blog.knoldus.com/play-with-text-in-linux-grep-cut-awk-sed/
 Additonal monitoring -> https://phoenixnap.com/kb/check-cpu-usage-load-linux
 
 mpstat usage guide -> https://www.virtono.com/community/tutorial-how-to/linux-cpu-performance-measurements-with-mpstat/
+
+Script in linux guide -> https://www.geeksforgeeks.org/script-command-in-linux-with-examples/
