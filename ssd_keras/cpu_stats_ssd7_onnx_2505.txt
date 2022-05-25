@@ -1,0 +1,35 @@
+Script started on 2022-05-25 18:49:07+0200
+]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ nvidia-smi --format=csv --query-gpu=power.draw,,utilization.gpu,utilization.memory,fan.speed,temperature.gpu,temperature.memory,memory.used,memory.free,mmemory.reserved,memory.total,pstate,fan.speed,power.draw -lms 1000[A[A[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnvidia-smi --format=csv --query-gpu=power.draw,,utilization.gpu,utilization.memory,fan.speed,temperature.gpu,temperature.memory,memory.used,memory.free,mmemory.reserved,memory.total,pstate,fan.speed,power.draw -lms 1000[A[C[Clization.gpu,utilization.memory,fan.speed,temperature.gpu,temperature.memory,memory.used,memory.free,mem[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[Ahistory[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnvidia-smi --format=csv --query-gpu=power.draw,,ulization.gpu,utilization.memory,fan.speed,temperature.gpu,temperature.memory,memory.used,memory.free,memmory.reserved,memory.total,pstate,fan.speed,power.draw -lms 1000[A[C[Ctilization.gpu,utilization.memory,fan.speed,temperature.gpu,temperature.memory,memory.used,memory.free,m[2@em[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csar -u 1
+Linux 4.15.0-176-generic (mneme) 	05/25/2022 	_x86_64_	(8 CPU)
+
+06:49:33 PM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+06:49:34 PM     all     21.27      0.00      6.59      0.00      0.00     72.14
+06:49:35 PM     all     37.72      0.00      8.44      0.00      0.00     53.85
+06:49:36 PM     all     38.21      0.00      9.84      0.00      0.00     51.95
+06:49:37 PM     all     40.18      0.00      8.49      0.00      0.00     51.33
+06:49:38 PM     all     35.59      0.00      8.52      0.00      0.00     55.89
+06:49:39 PM     all     36.97      0.00      8.44      0.00      0.00     54.59
+06:49:40 PM     all     35.80      0.00      7.79      0.00      0.00     56.41
+06:49:41 PM     all     38.22      0.00      9.65      0.00      0.00     52.13
+06:49:42 PM     all     36.88      0.00      8.54      0.00      0.00     54.58
+06:49:43 PM     all     38.66      0.00      8.92      0.00      0.00     52.42
+06:49:44 PM     all     35.59      0.00      8.74      0.00      0.00     55.67
+06:49:45 PM     all     36.14      0.00      8.56      0.00      0.00     55.30
+06:49:46 PM     all     35.08      0.00      8.49      0.00      0.00     56.43
+06:49:47 PM     all     35.12      0.00      8.12      0.00      0.00     56.75
+06:49:48 PM     all     36.55      0.00      7.38      0.00      0.00     56.07
+06:49:49 PM     all     35.97      0.00      7.55      0.00      0.00     56.48
+06:49:50 PM     all     29.87      0.00      8.35      0.13      0.00     61.65
+^C
+
+Average:        all     35.52      0.00      8.38      0.01      0.00     56.10
+]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ nvidia-smi --format=csv --query-gpu=power.dr,uttilization.gpu,utilization.memory,fan.speed,temperature.gpu,memory.used,memory.free,memory.reserved,memoryy.total,pstate,fan.speed,power.draw -lms 1000^C
+]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ exit
+
+Script done on 2022-05-25 19:00:04+0200
