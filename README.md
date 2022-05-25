@@ -5,7 +5,7 @@
 - `nvidia-smi | sed -n 10p | awk '/MiB/ {print $9,$13}'` - cuts both the RAM and percentage
 	- Output -> `636MiB 2%`
 - Added `tegrastats_cut.sh` script to cut the data from `tegrastats.txt`. This will look for "RAM" keyword and outputs the appropriate fields from that line. 
-- sar -u 1 -> Gives the stats every 1 second.
+- `sar -u 1` -> Gives the stats every 1 second.
 
 ## New method
 ```
