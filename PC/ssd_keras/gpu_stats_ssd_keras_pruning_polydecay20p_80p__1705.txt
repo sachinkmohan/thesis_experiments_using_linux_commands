@@ -1,0 +1,53 @@
+Script started on 2022-05-17 19:17:06+0200
+]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ nvidia-smi --format=csv --query-gpu=power.draww,utilization.gpu,utilization.memory,fan.speed,temperature.gpu,memory.used,memory.free,memory.reserved,meemory.total,pstate -lms 1000
+power.draw [W], utilization.gpu [%], utilization.memory [%], fan.speed [%], temperature.gpu, memory.used [MiB], memory.free [MiB], memory.reserved [MiB], memory.total [MiB], pstate
+68.63 W, 1 %, 0 %, 20 %, 55, 673 MiB, 10502 MiB, 88 MiB, 11264 MiB, P2
+67.29 W, 0 %, 0 %, 20 %, 56, 673 MiB, 10502 MiB, 88 MiB, 11264 MiB, P2
+67.27 W, 0 %, 0 %, 20 %, 56, 673 MiB, 10501 MiB, 88 MiB, 11264 MiB, P2
+67.57 W, 0 %, 0 %, 20 %, 56, 673 MiB, 10501 MiB, 88 MiB, 11264 MiB, P2
+68.11 W, 5 %, 1 %, 20 %, 56, 807 MiB, 10367 MiB, 88 MiB, 11264 MiB, P2
+67.50 W, 5 %, 1 %, 20 %, 57, 981 MiB, 10193 MiB, 88 MiB, 11264 MiB, P2
+78.46 W, 22 %, 6 %, 20 %, 57, 982 MiB, 10192 MiB, 88 MiB, 11264 MiB, P2
+80.02 W, 20 %, 6 %, 20 %, 57, 992 MiB, 10182 MiB, 88 MiB, 11264 MiB, P2
+77.48 W, 21 %, 6 %, 20 %, 57, 992 MiB, 10182 MiB, 88 MiB, 11264 MiB, P2
+75.72 W, 23 %, 7 %, 20 %, 57, 981 MiB, 10193 MiB, 88 MiB, 11264 MiB, P2
+72.91 W, 22 %, 6 %, 20 %, 58, 982 MiB, 10193 MiB, 88 MiB, 11264 MiB, P2
+78.16 W, 21 %, 6 %, 20 %, 58, 982 MiB, 10193 MiB, 88 MiB, 11264 MiB, P2
+79.11 W, 23 %, 7 %, 20 %, 58, 982 MiB, 10193 MiB, 88 MiB, 11264 MiB, P2
+74.16 W, 22 %, 6 %, 20 %, 58, 992 MiB, 10183 MiB, 88 MiB, 11264 MiB, P2
+78.18 W, 21 %, 6 %, 20 %, 58, 982 MiB, 10192 MiB, 88 MiB, 11264 MiB, P2
+75.15 W, 22 %, 6 %, 20 %, 58, 982 MiB, 10192 MiB, 88 MiB, 11264 MiB, P2
+75.74 W, 22 %, 6 %, 21 %, 58, 992 MiB, 10182 MiB, 88 MiB, 11264 MiB, P2
+79.98 W, 21 %, 6 %, 21 %, 58, 991 MiB, 10183 MiB, 88 MiB, 11264 MiB, P2
+75.53 W, 21 %, 6 %, 21 %, 59, 981 MiB, 10193 MiB, 88 MiB, 11264 MiB, P2
+79.71 W, 21 %, 6 %, 21 %, 59, 992 MiB, 10182 MiB, 88 MiB, 11264 MiB, P2
+78.73 W, 20 %, 6 %, 21 %, 59, 992 MiB, 10182 MiB, 88 MiB, 11264 MiB, P2
+73.98 W, 21 %, 6 %, 21 %, 59, 992 MiB, 10182 MiB, 88 MiB, 11264 MiB, P2
+79.23 W, 22 %, 6 %, 21 %, 59, 982 MiB, 10192 MiB, 88 MiB, 11264 MiB, P2
+76.58 W, 22 %, 6 %, 21 %, 59, 992 MiB, 10183 MiB, 88 MiB, 11264 MiB, P2
+75.32 W, 21 %, 6 %, 22 %, 59, 992 MiB, 10183 MiB, 88 MiB, 11264 MiB, P2
+77.31 W, 23 %, 6 %, 22 %, 59, 982 MiB, 10193 MiB, 88 MiB, 11264 MiB, P2
+71.46 W, 1 %, 1 %, 22 %, 59, 832 MiB, 10343 MiB, 88 MiB, 11264 MiB, P2
+71.59 W, 0 %, 0 %, 22 %, 59, 535 MiB, 10640 MiB, 88 MiB, 11264 MiB, P0
+71.59 W, 3 %, 1 %, 22 %, 59, 534 MiB, 10640 MiB, 88 MiB, 11264 MiB, P0
+71.49 W, 1 %, 0 %, 22 %, 59, 534 MiB, 10640 MiB, 88 MiB, 11264 MiB, P0
+71.59 W, 0 %, 0 %, 22 %, 59, 535 MiB, 10640 MiB, 88 MiB, 11264 MiB, P0
+71.59 W, 0 %, 0 %, 22 %, 59, 534 MiB, 10641 MiB, 88 MiB, 11264 MiB, P0
+^C]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ l
+total 80
+-rw-r--r-- 1 mohan agrosy_s   364 May 13 16:06 cpu_1305.txt
+-rw-r--r-- 1 mohan agrosy_s   411 May 14 18:08 cpu_1405.txt
+-rw-r--r-- 1 mohan agrosy_s  2512 May 14 18:16 tegrastats.txt
+-rwxr-xr-x 1 mohan agrosy_s    68 May 16 16:32 [0m[01;32mcpu_data_capture.sh[0m
+-rw-r--r-- 1 mohan agrosy_s   752 May 16 18:22 README.md
+-rw-r--r-- 1 mohan agrosy_s  1158 May 17 11:51 gpu_stats_1705.txt
+-rw-r--r-- 1 mohan agrosy_s  3586 May 17 17:17 gpu_stats_1705_ssd7_keras_base_30ep_v1.txt
+-rw-r--r-- 1 mohan agrosy_s 12116 May 17 17:25 fps_base_ssd7_keras_30ep_1705.txt
+-rwxr-xr-x 1 mohan agrosy_s   231 May 17 17:35 [01;32mtegrastats_cut.sh[0m
+-rwxr-xr-x 1 mohan agrosy_s   314 May 17 18:03 [01;32mdata_cut.sh[0m
+-rw-r--r-- 1 mohan agrosy_s 23133 May 17 19:13 fps_ssd_keras_pruning_polydecay20p_80p_1705.txt
+-rw-r--r-- 1 mohan agrosy_s     0 May 17 19:17 gpu_stats_prun_1705.txt
+-rw-r--r-- 1 mohan agrosy_s  8192 May 17 19:17 cpu_usage_base_ssd7_keras_30ep.txt
+]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ exit
+
+Script done on 2022-05-17 19:18:41+0200

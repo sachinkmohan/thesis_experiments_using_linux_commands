@@ -1,0 +1,45 @@
+Script started on 2022-05-17 17:16:47+0200
+]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ nvidia-smi --format=csv --query-gpu=power.draw,utilization.gpu,utilization.memory,fan.speed,temperature.gpu,memory.used,memory.free,memory.reserved,memorry.total,pstate -lms 1000
+power.draw [W], utilization.gpu [%], utilization.memory [%], fan.speed [%], temperature.gpu, memory.used [MiB], memory.free [MiB], memory.reserved [MiB], memory.total [MiB], pstate
+21.15 W, 1 %, 4 %, 20 %, 49, 581 MiB, 10594 MiB, 88 MiB, 11264 MiB, P8
+20.47 W, 1 %, 4 %, 20 %, 49, 581 MiB, 10593 MiB, 88 MiB, 11264 MiB, P8
+20.68 W, 1 %, 4 %, 20 %, 49, 581 MiB, 10593 MiB, 88 MiB, 11264 MiB, P8
+20.68 W, 4 %, 4 %, 20 %, 49, 581 MiB, 10593 MiB, 88 MiB, 11264 MiB, P8
+61.83 W, 0 %, 0 %, 20 %, 50, 720 MiB, 10454 MiB, 88 MiB, 11264 MiB, P2
+61.99 W, 0 %, 0 %, 20 %, 51, 720 MiB, 10455 MiB, 88 MiB, 11264 MiB, P2
+61.90 W, 0 %, 0 %, 20 %, 51, 717 MiB, 10457 MiB, 88 MiB, 11264 MiB, P2
+61.93 W, 0 %, 0 %, 20 %, 51, 718 MiB, 10457 MiB, 88 MiB, 11264 MiB, P2
+62.00 W, 0 %, 0 %, 20 %, 51, 852 MiB, 10323 MiB, 88 MiB, 11264 MiB, P2
+62.10 W, 1 %, 0 %, 20 %, 52, 852 MiB, 10323 MiB, 88 MiB, 11264 MiB, P2
+67.34 W, 23 %, 6 %, 20 %, 52, 1027 MiB, 10148 MiB, 88 MiB, 11264 MiB, P2
+71.31 W, 20 %, 6 %, 20 %, 52, 1037 MiB, 10138 MiB, 88 MiB, 11264 MiB, P2
+70.25 W, 22 %, 6 %, 20 %, 52, 1027 MiB, 10148 MiB, 88 MiB, 11264 MiB, P2
+70.95 W, 22 %, 6 %, 20 %, 53, 1026 MiB, 10149 MiB, 88 MiB, 11264 MiB, P2
+70.24 W, 21 %, 6 %, 20 %, 53, 1026 MiB, 10148 MiB, 88 MiB, 11264 MiB, P2
+68.79 W, 20 %, 6 %, 20 %, 53, 1036 MiB, 10138 MiB, 88 MiB, 11264 MiB, P2
+71.74 W, 21 %, 6 %, 20 %, 53, 1036 MiB, 10138 MiB, 88 MiB, 11264 MiB, P2
+72.87 W, 23 %, 6 %, 20 %, 53, 1026 MiB, 10148 MiB, 88 MiB, 11264 MiB, P2
+73.18 W, 21 %, 6 %, 20 %, 53, 1037 MiB, 10138 MiB, 88 MiB, 11264 MiB, P2
+68.87 W, 21 %, 6 %, 20 %, 53, 1037 MiB, 10138 MiB, 88 MiB, 11264 MiB, P2
+70.61 W, 22 %, 6 %, 20 %, 53, 1026 MiB, 10148 MiB, 88 MiB, 11264 MiB, P2
+70.26 W, 21 %, 6 %, 20 %, 54, 1027 MiB, 10148 MiB, 88 MiB, 11264 MiB, P2
+71.42 W, 22 %, 6 %, 20 %, 54, 1037 MiB, 10138 MiB, 88 MiB, 11264 MiB, P2
+68.99 W, 22 %, 6 %, 20 %, 54, 1027 MiB, 10148 MiB, 88 MiB, 11264 MiB, P2
+71.00 W, 21 %, 6 %, 20 %, 54, 1027 MiB, 10148 MiB, 88 MiB, 11264 MiB, P2
+71.40 W, 21 %, 6 %, 20 %, 54, 1037 MiB, 10137 MiB, 88 MiB, 11264 MiB, P2
+67.93 W, 22 %, 6 %, 20 %, 54, 1027 MiB, 10147 MiB, 88 MiB, 11264 MiB, P2
+67.32 W, 21 %, 6 %, 20 %, 54, 1036 MiB, 10139 MiB, 88 MiB, 11264 MiB, P2
+72.27 W, 20 %, 6 %, 20 %, 54, 1026 MiB, 10148 MiB, 88 MiB, 11264 MiB, P2
+67.83 W, 22 %, 6 %, 20 %, 54, 1026 MiB, 10148 MiB, 88 MiB, 11264 MiB, P2
+68.82 W, 21 %, 6 %, 20 %, 55, 1036 MiB, 10138 MiB, 88 MiB, 11264 MiB, P2
+62.87 W, 0 %, 0 %, 20 %, 54, 1024 MiB, 10150 MiB, 88 MiB, 11264 MiB, P2
+66.02 W, 1 %, 0 %, 20 %, 55, 582 MiB, 10593 MiB, 88 MiB, 11264 MiB, P0
+62.89 W, 0 %, 0 %, 20 %, 54, 581 MiB, 10594 MiB, 88 MiB, 11264 MiB, P0
+62.87 W, 0 %, 0 %, 20 %, 54, 581 MiB, 10593 MiB, 88 MiB, 11264 MiB, P0
+62.89 W, 0 %, 0 %, 20 %, 54, 581 MiB, 10593 MiB, 88 MiB, 11264 MiB, P0
+56.91 W, 0 %, 0 %, 20 %, 54, 580 MiB, 10594 MiB, 88 MiB, 11264 MiB, P2
+56.94 W, 0 %, 0 %, 20 %, 54, 580 MiB, 10594 MiB, 88 MiB, 11264 MiB, P2
+56.94 W, 0 %, 0 %, 20 %, 54, 581 MiB, 10594 MiB, 88 MiB, 11264 MiB, P2
+^C]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ exit
+
+Script done on 2022-05-17 17:17:39+0200

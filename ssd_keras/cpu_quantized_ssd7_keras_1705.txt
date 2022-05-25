@@ -1,0 +1,60 @@
+Script started on 2022-05-17 19:41:56+0200
+]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ mpstata [K[K ^[K1 50
+Linux 4.15.0-176-generic (mneme) 	05/17/2022 	_x86_64_	(8 CPU)
+^C]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ pwd
+/home/mohan/git/thesis_experiments_using_linux_commands
+]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ l
+total 168
+-rw-r--r-- 1 mohan agrosy_s   364 May 13 16:06 cpu_1305.txt
+-rw-r--r-- 1 mohan agrosy_s   411 May 14 18:08 cpu_1405.txt
+-rw-r--r-- 1 mohan agrosy_s  2512 May 14 18:16 tegrastats.txt
+-rwxr-xr-x 1 mohan agrosy_s    68 May 16 16:32 [0m[01;32mcpu_data_capture.sh[0m
+-rw-r--r-- 1 mohan agrosy_s   752 May 16 18:22 README.md
+-rw-r--r-- 1 mohan agrosy_s  1158 May 17 11:51 gpu_stats_1705.txt
+-rw-r--r-- 1 mohan agrosy_s  3586 May 17 17:17 gpu_stats_1705_ssd7_keras_base_30ep_v1.txt
+-rw-r--r-- 1 mohan agrosy_s 12116 May 17 17:25 fps_base_ssd7_keras_30ep_1705.txt
+-rwxr-xr-x 1 mohan agrosy_s   231 May 17 17:35 [01;32mtegrastats_cut.sh[0m
+-rw-r--r-- 1 mohan agrosy_s 23133 May 17 19:13 fps_ssd_keras_pruning_polydecay20p_80p_1705.txt
+-rw-r--r-- 1 mohan agrosy_s  4182 May 17 19:18 gpu_stats_ssd_keras_pruning_polydecay20p_80p__1705.txt
+-rw-r--r-- 1 mohan agrosy_s  4004 May 17 19:37 gpu_quantized_ssd7_keras_1705.txt
+-rw-r--r-- 1 mohan agrosy_s 57344 May 17 19:37 cpu_usage_base_ssd7_keras_30ep.txt
+-rwxr-xr-x 1 mohan agrosy_s   305 May 17 19:37 [01;32mdata_cut.sh[0m
+-rw-r--r-- 1 mohan agrosy_s     0 May 17 19:41 cpu_quantized_ssd7_keras_1705.txt
+-rw-r--r-- 1 mohan agrosy_s 23748 May 17 19:42 fps_quantized_ssd7_keras_30ep.txt
+]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ lpwdmpstat 1 50
+Linux 4.15.0-176-generic (mneme) 	05/17/2022 	_x86_64_	(8 CPU)
+
+07:44:18 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+07:44:19 PM  all   12.17    0.00    0.75    0.00    0.00    0.00    0.00    0.00    0.00   87.08
+07:44:20 PM  all   13.64    0.00    0.75    0.00    0.00    0.13    0.00    0.00    0.00   85.48
+07:44:21 PM  all   12.97    0.00    1.51    0.00    0.00    0.00    0.00    0.00    0.00   85.52
+07:44:22 PM  all   13.60    0.00    5.54    0.00    0.00    0.25    0.00    0.00    0.00   80.60
+07:44:23 PM  all   25.09    0.00    5.40    0.00    0.00    0.00    0.00    0.00    0.00   69.51
+07:44:24 PM  all   29.27    0.00    5.78    0.00    0.00    0.25    0.00    0.00    0.00   64.70
+07:44:25 PM  all   28.00    0.00    6.69    0.00    0.00    0.25    0.00    0.00    0.00   65.06
+07:44:26 PM  all   38.37    0.00    4.83    0.00    0.00    0.25    0.00    0.00    0.00   56.54
+07:44:27 PM  all   27.66    0.00    5.51    0.00    0.00    0.00    0.00    0.00    0.00   66.83
+07:44:28 PM  all   27.65    0.00    6.72    0.25    0.00    0.37    0.00    0.00    0.00   65.01
+07:44:29 PM  all   27.55    0.00    5.41    0.00    0.00    0.13    0.00    0.00    0.00   66.92
+07:44:30 PM  all   29.02    0.00    5.20    0.00    0.00    0.13    0.00    0.00    0.00   65.65
+07:44:31 PM  all   28.30    0.00    4.78    0.00    0.00    0.13    0.00    0.00    0.00   66.79
+07:44:32 PM  all   29.12    0.00    3.96    0.00    0.00    0.00    0.00    0.00    0.00   66.92
+07:44:33 PM  all   27.58    0.00    6.17    0.00    0.00    0.13    0.00    0.00    0.00   66.12
+07:44:34 PM  all   27.28    0.00    5.63    0.00    0.00    0.00    0.00    0.00    0.00   67.08
+07:44:35 PM  all   27.30    0.00    5.41    0.00    0.00    0.13    0.00    0.00    0.00   67.17
+07:44:36 PM  all   27.30    0.00    5.71    0.00    0.00    0.12    0.00    0.00    0.00   66.87
+07:44:37 PM  all   28.25    0.00    4.41    0.00    0.00    0.00    0.00    0.00    0.00   67.34
+07:44:38 PM  all   27.36    0.00    4.41    0.00    0.00    0.13    0.00    0.00    0.00   68.10
+07:44:39 PM  all   28.25    0.00    6.82    0.00    0.00    0.00    0.00    0.00    0.00   64.93
+07:44:40 PM  all   25.78    0.00    5.13    0.00    0.00    0.13    0.00    0.00    0.00   68.96
+07:44:41 PM  all   27.18    0.00    6.23    0.00    0.00    0.00    0.00    0.00    0.00   66.58
+07:44:42 PM  all   27.69    0.00    4.05    0.00    0.00    0.13    0.00    0.00    0.00   68.14
+07:44:43 PM  all   29.24    0.00    4.81    0.00    0.00    0.00    0.00    0.00    0.00   65.95
+07:44:44 PM  all   26.50    0.00    4.74    0.00    0.00    0.00    0.00    0.00    0.00   68.76
+07:44:45 PM  all   15.14    0.00    5.01    0.00    0.00    0.25    0.00    0.00    0.00   79.60
+07:44:46 PM  all    1.00    0.00    0.75    0.00    0.00    0.00    0.00    0.00    0.00   98.25
+^C
+Average:     all   24.57    0.00    4.72    0.01    0.00    0.10    0.00    0.00    0.00   70.60
+]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ exit
+
+Script done on 2022-05-17 19:44:53+0200
