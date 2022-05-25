@@ -9,7 +9,7 @@
 
 ## New method
 ```
-	nvidia-smi --format=csv --query-gpu=utilizatn.gpu,utilization.memory,temperature.gpu,memory.used,memory.free,memory.reserved,memory.total,pstate,fan.speed,power.draw -lms 1000
+	nvidia-smi --format=csv --query-gpu=utilization.gpu,utilization.memory,temperature.gpu,memory.used,memory.free,memory.reserved,memory.total,pstate,fan.speed,power.draw -lms 1000
 ```
 - Run `script` command after executing the above.
 - Once the file is saved. Execute the `data_cut.sh` script.
