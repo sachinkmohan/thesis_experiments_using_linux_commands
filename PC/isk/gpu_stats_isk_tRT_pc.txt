@@ -1,15 +1,11 @@
 Script started on 2022-06-03 15:05:53+0200
-]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ nvidia-smi --format=csv --query-gpu=utilizationn.gpu,utilization.memory,temperature.gpu,memory.used,memory.free,memory.reserved,memory.total,pstate,fan.sspeed,power.draw -lms 1000[A[A]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ sar -u 1 15[K
-[K
-[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnvidia-smi --format=csv --query-gpu=utilizationn.gpu,utilization.memory,temperature.gpu,memory.used,memory.free,memory.reserved,memory.total,pstate,fan.sspeed,power.draw -lms 1000
-utilization.gpu [%], utilization.memory [%], temperature.gpu, memory.used [MiB], memory.free [MiB], memory.reserved [MiB], memory.total [MiB], pstate, fan.speed [%], power.draw [W]
+
 2 %, 5 %, 48, 756 MiB, 10419 MiB, 88 MiB, 11264 MiB, P8, 22 %, 19.50 W
 0 %, 4 %, 47, 756 MiB, 10419 MiB, 88 MiB, 11264 MiB, P8, 22 %, 13.73 W
 0 %, 4 %, 47, 756 MiB, 10418 MiB, 88 MiB, 11264 MiB, P8, 22 %, 13.63 W
 1 %, 4 %, 47, 756 MiB, 10418 MiB, 88 MiB, 11264 MiB, P8, 22 %, 15.88 W
 0 %, 4 %, 47, 756 MiB, 10418 MiB, 88 MiB, 11264 MiB, P8, 22 %, 13.44 W
-^C]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ nvidia-smi --format=csv --query-gpu=utilizationn.gpu,utilization.memory,temperature.gpu,memory.used,memory.free,memory.reserved,memory.total,pstate,fan.sspeed,power.draw -lms 1000
-utilization.gpu [%], utilization.memory [%], temperature.gpu, memory.used [MiB], memory.free [MiB], memory.reserved [MiB], memory.total [MiB], pstate, fan.speed [%], power.draw [W]
+
 51 %, 28 %, 60, 1572 MiB, 9603 MiB, 88 MiB, 11264 MiB, P2, 20 %, 185.36 W
 54 %, 30 %, 61, 1572 MiB, 9602 MiB, 88 MiB, 11264 MiB, P2, 21 %, 139.64 W
 54 %, 30 %, 61, 1572 MiB, 9602 MiB, 88 MiB, 11264 MiB, P2, 21 %, 146.46 W
@@ -25,11 +21,4 @@ utilization.gpu [%], utilization.memory [%], temperature.gpu, memory.used [MiB],
 50 %, 28 %, 66, 1573 MiB, 9602 MiB, 88 MiB, 11264 MiB, P2, 27 %, 237.15 W
 51 %, 28 %, 67, 1572 MiB, 9602 MiB, 88 MiB, 11264 MiB, P2, 27 %, 223.01 W
 50 %, 28 %, 67, 1572 MiB, 9603 MiB, 88 MiB, 11264 MiB, P2, 28 %, 177.59 W
-^C]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ cnvidia-smi --format=csv --query-gpu=utilizationn.gpu,utilization.memory,temperature.gpu,memory.used,memory.free,memory.reserved,memory.total,pstate,fan.sspeed,power.draw -lms 1000[A[A]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ sar -u 1 15[K
-[K
-[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnvidia-smi --format=csv --query-gpu=utilizationn.gpu,utilization.memory,temperature.gpu,memory.used,memory.free,memory.reserved,memory.total,pstate,fan.sspeed,power.draw -lms 1000[A[A]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ sar -u 1 15[K
-[K
-[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^C
-]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ exit
 
-Script done on 2022-06-03 15:07:45+0200
