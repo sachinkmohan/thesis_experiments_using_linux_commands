@@ -1,0 +1,40 @@
+Script started on 2022-06-02 16:03:05+0200
+]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ nvidia-smi --format=csv --query-gpu=utilizationn.gpu,utilization.memory,temperature.gpu,mory.used,memory.free,memory.reserved,memory.total,pstate,fan.speeed,power.draw -lms 1000
+Field "mory.used" is not a valid field to query.
+
+]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ nvidia-smi --format=csv --query-gpu=utilizationn.gpu,utilization.memory,temperature.gpu,mory.used,memory.free,memory.reserved,memory.total,pstate,fan.speeed,power.draw -lms 1000[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnmory.used,memory.free,memory.reserved,memory.total,pstate,fan.sp[C[1@e[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmory.used,memory.free,memory.reserved,memory.total,pstate,fan.spe[C[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmory.used,memory.free,memory.reserved,memory.total,pstate,fan.sp[C[1@e[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemory.used,memory.free,memory.reserved,memory.total,pstate,fan.s[1@p[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+utilization.gpu [%], utilization.memory [%], temperature.gpu, memory.used [MiB], memory.free [MiB], memory.reserved [MiB], memory.total [MiB], pstate, fan.speed [%], power.draw [W]
+51 %, 12 %, 68, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 33 %, 93.29 W
+47 %, 11 %, 68, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 33 %, 91.95 W
+63 %, 12 %, 68, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 33 %, 128.40 W
+53 %, 12 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 33 %, 94.14 W
+48 %, 12 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 33 %, 91.70 W
+48 %, 6 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 33 %, 92.99 W
+55 %, 12 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 33 %, 182.21 W
+54 %, 9 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 33 %, 93.68 W
+63 %, 12 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 33 %, 93.07 W
+55 %, 12 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 33 %, 92.71 W
+49 %, 8 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 33 %, 121.28 W
+58 %, 9 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 34 %, 96.32 W
+54 %, 7 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 34 %, 104.95 W
+62 %, 12 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 34 %, 92.68 W
+53 %, 12 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 34 %, 125.62 W
+49 %, 8 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 34 %, 180.88 W
+64 %, 12 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 34 %, 93.97 W
+59 %, 12 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 34 %, 91.53 W
+49 %, 8 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 34 %, 177.34 W
+58 %, 9 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 34 %, 126.79 W
+53 %, 12 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 34 %, 92.21 W
+50 %, 9 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 34 %, 144.79 W
+63 %, 12 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 34 %, 109.97 W
+53 %, 12 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 34 %, 92.00 W
+51 %, 9 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 34 %, 92.23 W
+64 %, 12 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 34 %, 155.46 W
+54 %, 12 %, 69, 10963 MiB, 212 MiB, 88 MiB, 11264 MiB, P2, 34 %, 106.57 W
+52 %, 12 %, 69, 10961 MiB, 214 MiB, 88 MiB, 11264 MiB, P2, 34 %, 104.66 W
+52 %, 11 %, 69, 10961 MiB, 214 MiB, 88 MiB, 11264 MiB, P2, 34 %, 92.12 W
+52 %, 7 %, 69, 10961 MiB, 214 MiB, 88 MiB, 11264 MiB, P2, 34 %, 92.73 W
+^C]0;mohan@mneme: ~/git/thesis_experiments_using_linux_commands[32mmohan[0m@[33mmneme[0m:~/git/thesis_experiments_using_linux_commands$ exit
+
+Script done on 2022-06-02 16:43:23+0200
