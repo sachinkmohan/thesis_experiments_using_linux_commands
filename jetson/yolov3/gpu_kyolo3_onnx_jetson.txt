@@ -1,0 +1,80 @@
+Script started on 2022-06-14 19:59:50+0200
+]0;agrosy@agrosy-desktop: ~/git/thesis_experiments_using_linux_commands[01;32magrosy@agrosy-desktop[00m:[01;34m~/git/thesis_experiments_using_linux_commands[00m$ get[K[K[Ktegrastats
+RAM 8667/31927MB (lfb 3939x4MB) SWAP 0/15964MB (cached 0MB) CPU [44%@2265,51%@2265,65%@2265,49%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 26% AO@45.5C GPU@49.5C Tdiode@51C PMIC@50C AUX@45C CPU@48.5C thermal@47.85C Tboard@40C
+RAM 8666/31927MB (lfb 3939x4MB) SWAP 0/15964MB (cached 0MB) CPU [48%@2265,46%@2265,43%@2265,52%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 19% AO@46C GPU@49.5C Tdiode@51.5C PMIC@50C AUX@45C CPU@48C thermal@47.85C Tboard@40C
+RAM 8667/31927MB (lfb 3939x4MB) SWAP 0/15964MB (cached 0MB) CPU [49%@2265,42%@2265,60%@2265,59%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 17% AO@45.5C GPU@49C Tdiode@51C PMIC@50C AUX@45C CPU@49C thermal@47.4C Tboard@40C
+RAM 8666/31927MB (lfb 3939x4MB) SWAP 0/15964MB (cached 0MB) CPU [40%@2265,45%@2265,50%@2265,56%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 12% AO@46C GPU@49C Tdiode@51.25C PMIC@50C AUX@45C CPU@48.5C thermal@47.4C Tboard@40C
+RAM 8667/31927MB (lfb 3939x4MB) SWAP 0/15964MB (cached 0MB) CPU [46%@2265,49%@2265,57%@2265,41%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 99% AO@46C GPU@51C Tdiode@50.75C PMIC@50C AUX@45C CPU@49C thermal@47.4C Tboard@40C
+RAM 8667/31927MB (lfb 3939x4MB) SWAP 0/15964MB (cached 0MB) CPU [42%@2265,40%@2265,55%@2265,60%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 99% AO@46C GPU@51C Tdiode@51.25C PMIC@50C AUX@45.5C CPU@49C thermal@47.9C Tboard@40C
+RAM 8667/31927MB (lfb 3939x4MB) SWAP 0/15964MB (cached 0MB) CPU [34%@2265,46%@2265,51%@2265,46%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 75% AO@46C GPU@52C Tdiode@50.75C PMIC@50C AUX@45.5C CPU@48.5C thermal@48.3C Tboard@40C
+RAM 8667/31927MB (lfb 3939x4MB) SWAP 0/15964MB (cached 0MB) CPU [63%@2265,48%@2265,48%@2265,50%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 44% AO@46.5C GPU@52C Tdiode@51C PMIC@50C AUX@45.5C CPU@49C thermal@48.05C Tboard@40C
+RAM 8674/31927MB (lfb 3939x4MB) SWAP 0/15964MB (cached 0MB) CPU [44%@2265,37%@2265,45%@2265,56%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 42% AO@46.5C GPU@51.5C Tdiode@50.75C PMIC@50C AUX@45.5C CPU@48.5C thermal@47.6C Tboard@40C
+RAM 8681/31927MB (lfb 3939x4MB) SWAP 0/15964MB (cached 0MB) CPU [52%@2265,52%@2265,49%@2265,50%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 37% AO@46.5C GPU@51C Tdiode@52C PMIC@50C AUX@45.5C CPU@49C thermal@47.75C Tboard@40C
+RAM 8682/31927MB (lfb 3939x4MB) SWAP 0/15964MB (cached 0MB) CPU [47%@2265,40%@2265,59%@2265,47%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 5% AO@46C GPU@49.5C Tdiode@51.5C PMIC@50C AUX@45.5C CPU@48.5C thermal@47.9C Tboard@40C
+RAM 8683/31927MB (lfb 3939x4MB) SWAP 0/15964MB (cached 0MB) CPU [40%@2265,42%@2265,52%@2265,53%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 99% AO@46C GPU@50C Tdiode@52C PMIC@50C AUX@45.5C CPU@49.5C thermal@48.05C Tboard@40C
+RAM 8688/31927MB (lfb 3939x4MB) SWAP 0/15964MB (cached 0MB) CPU [50%@2265,41%@2265,54%@2265,57%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 99% AO@46.5C GPU@50.5C Tdiode@51.25C PMIC@50C AUX@45.5C CPU@49C thermal@48.5C Tboard@40C
+RAM 8696/31927MB (lfb 3938x4MB) SWAP 0/15964MB (cached 0MB) CPU [55%@2265,35%@2265,53%@2265,39%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 99% AO@46.5C GPU@52C Tdiode@52.5C PMIC@50C AUX@45.5C CPU@49C thermal@48.5C Tboard@41C
+RAM 8697/31927MB (lfb 3938x4MB) SWAP 0/15964MB (cached 0MB) CPU [51%@2265,50%@2265,56%@2265,54%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 99% AO@46.5C GPU@52C Tdiode@51.5C PMIC@50C AUX@46.5C CPU@49.5C thermal@48.5C Tboard@41C
+RAM 8696/31927MB (lfb 3938x4MB) SWAP 0/15964MB (cached 0MB) CPU [36%@2265,36%@2265,53%@2265,53%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 29% AO@46.5C GPU@51.5C Tdiode@51.75C PMIC@50C AUX@46C CPU@49C thermal@48.1C Tboard@41C
+RAM 8706/31927MB (lfb 3937x4MB) SWAP 0/15964MB (cached 0MB) CPU [54%@2265,59%@2265,44%@2265,53%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 26% AO@46.5C GPU@51C Tdiode@52C PMIC@50C AUX@46C CPU@49.5C thermal@48.1C Tboard@41C
+RAM 8706/31927MB (lfb 3937x4MB) SWAP 0/15964MB (cached 0MB) CPU [40%@2265,34%@2265,55%@2265,58%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 18% AO@46.5C GPU@50C Tdiode@51.75C PMIC@50C AUX@46C CPU@49C thermal@48.1C Tboard@41C
+RAM 8710/31927MB (lfb 3937x4MB) SWAP 0/15964MB (cached 0MB) CPU [43%@2265,59%@2265,45%@2265,55%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 17% AO@46.5C GPU@49.5C Tdiode@52C PMIC@50C AUX@46C CPU@49.5C thermal@48.4C Tboard@41C
+RAM 8674/31927MB (lfb 3939x4MB) SWAP 0/15964MB (cached 0MB) CPU [46%@2265,49%@2265,38%@2265,59%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 67% AO@46.5C GPU@50.5C Tdiode@52.5C PMIC@50C AUX@46C CPU@49.5C thermal@48.7C Tboard@41C
+RAM 8674/31927MB (lfb 3939x4MB) SWAP 0/15964MB (cached 0MB) CPU [40%@2265,39%@2265,45%@2265,54%@2265,off,off,off,off] EMC_FREQ 0% GR3D_FREQ 99% AO@46.5C GPU@51C Tdiode@52.25C PMIC@50C AUX@46C CPU@50C thermal@48.7C Tboard@41C
+^C
+]0;agrosy@agrosy-desktop: ~/git/thesis_experiments_using_linux_commands[01;32magrosy@agrosy-desktop[00m:[01;34m~/git/thesis_experiments_using_linux_commands[00m$ l[Kl
+total 40
+drwxrwxr-x 3 agrosy agrosy 4096 Mai 26 17:13 [0m[01;34mPC[0m
+drwxrwxr-x 2 agrosy agrosy 4096 Mai 26 17:13 [01;34mssd_keras[0m
+-rw-rw-r-- 1 agrosy agrosy 1399 Mai 26 17:13 README.md
+-rwxrwxr-x 1 agrosy agrosy  480 Mai 26 17:13 [01;32mdata_cut.sh[0m
+-rwxrwxr-x 1 agrosy agrosy   46 Mai 26 17:13 [01;32mcpu_data_capture.sh[0m
+-rwxrwxr-x 1 agrosy agrosy  259 Jun  8 16:57 [01;32mtegrastats_cut.sh[0m
+drwxrwxr-x 5 agrosy agrosy 4096 Jun 14 19:56 [01;34mjetson[0m
+-rw-rw-r-- 1 agrosy agrosy   48 Jun 14 19:58 gpu_all_kyolo3_jetson.txt
+-rw-rw-r-- 1 agrosy agrosy 3183 Jun 14 19:59 cpu_kyolo3_onnx_jetson.txt
+-rw-rw-r-- 1 agrosy agrosy 4096 Jun 14 20:00 gpu_kyolo3_onnx_jetson.txt
+]0;agrosy@agrosy-desktop: ~/git/thesis_experiments_using_linux_commands[01;32magrosy@agrosy-desktop[00m:[01;34m~/git/thesis_experiments_using_linux_commands[00m$ bash tegrastats_cut.sh gpu_kyolo33_onnx_jetson.txt
+26
+19
+17
+12
+99
+99
+75
+44
+42
+37
+5
+99
+99
+99
+99
+29
+26
+]0;agrosy@agrosy-desktop: ~/git/thesis_experiments_using_linux_commands[01;32magrosy@agrosy-desktop[00m:[01;34m~/git/thesis_experiments_using_linux_commands[00m$ l
+total 40
+drwxrwxr-x 3 agrosy agrosy 4096 Mai 26 17:13 [0m[01;34mPC[0m
+drwxrwxr-x 2 agrosy agrosy 4096 Mai 26 17:13 [01;34mssd_keras[0m
+-rw-rw-r-- 1 agrosy agrosy 1399 Mai 26 17:13 README.md
+-rwxrwxr-x 1 agrosy agrosy  480 Mai 26 17:13 [01;32mdata_cut.sh[0m
+-rwxrwxr-x 1 agrosy agrosy   46 Mai 26 17:13 [01;32mcpu_data_capture.sh[0m
+-rwxrwxr-x 1 agrosy agrosy  259 Jun  8 16:57 [01;32mtegrastats_cut.sh[0m
+drwxrwxr-x 5 agrosy agrosy 4096 Jun 14 19:56 [01;34mjetson[0m
+-rw-rw-r-- 1 agrosy agrosy   48 Jun 14 19:58 gpu_all_kyolo3_jetson.txt
+-rw-rw-r-- 1 agrosy agrosy 3183 Jun 14 19:59 cpu_kyolo3_onnx_jetson.txt
+-rw-rw-r-- 1 agrosy agrosy 4096 Jun 14 20:00 gpu_kyolo3_onnx_jetson.txt
+]0;agrosy@agrosy-desktop: ~/git/thesis_experiments_using_linux_commands[01;32magrosy@agrosy-desktop[00m:[01;34m~/git/thesis_experiments_using_linux_commands[00m$ git branch
+[?1h=* [32mjetson[m[m
+  main[m[m
+[K[?1l>]0;agrosy@agrosy-desktop: ~/git/thesis_experiments_using_linux_commands[01;32magrosy@agrosy-desktop[00m:[01;34m~/git/thesis_experiments_using_linux_commands[00m$ mkdir yolov3
+]0;agrosy@agrosy-desktop: ~/git/thesis_experiments_using_linux_commands[01;32magrosy@agrosy-desktop[00m:[01;34m~/git/thesis_experiments_using_linux_commands[00m$ l
+total 44
+drwxrwxr-x 3 agrosy agrosy 4096 Mai 26 17:13 [0m[01;34mPC[0m
+drwxrwxr-x 2 agrosy agrosy 4096 Mai 26 17:13 [01;34mssd_keras[0m
+-rw-rw-r-- 1 agrosy agrosy 1399 Mai 26 17:13 README.md
+-rwxrwxr-x 1 agrosy agrosy  480 Mai 26 17:13 [01;32mdata_cut.sh[0m
+-rwxrwxr-x 1 agrosy agrosy   46 Mai 26 17:13 [01;32mcpu_data_capture.sh[0m
+-rwxrwxr-x 1 agrosy agrosy  259 Jun  8 16:57 [01;32mtegrastats_cut.sh[0m
+drwxrwxr-x 5 agrosy agrosy 4096 Jun 14 19:56 [01;34mjetson[0m
+-rw-rw-r-- 1 agrosy agrosy   48 Jun 14 19:58 gpu_all_kyolo3_

@@ -1,0 +1,19 @@
+TensorRT 
+
+Initial - 3.8G 
+Final - 6.8G
+Diff - 3G
+---
+
+Onnx
+
+Initial - 3.8G 
+Final - 6.4G
+Diff - 2.6
+---
+
+Base
+
+Initial - 3.8G 
+Final - 10.6G
+Diff - 6.8G

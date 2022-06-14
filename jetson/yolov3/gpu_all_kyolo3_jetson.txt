@@ -1,0 +1,9 @@
+onnx
+
+base - 3.8G
+top - 6.1G
+diff - 2.3G
+
+---
+
+

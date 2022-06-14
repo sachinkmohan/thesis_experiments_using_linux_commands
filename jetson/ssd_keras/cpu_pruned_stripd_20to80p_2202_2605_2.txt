@@ -1,0 +1,40 @@
+Script started on 2022-05-26 19:09:00+0200
+]0;agrosy@agrosy-desktop: ~/git/thesis_experiments_using_linux_commands[01;32magrosy@agrosy-desktop[00m:[01;34m~/git/thesis_experiments_using_linux_commands[00m$ sar -u 1
+Linux 4.9.253-tegra (agrosy-desktop) 	26.05.2022 	_aarch64_	(8 CPU)
+
+19:09:04        CPU     %user     %nice   %system   %iowait    %steal     %idle
+19:09:05   [32;22m     all[0m[34;1m     30,48[0m[34;22m      0,00[0m[34;1m      2,52[0m[34;22m      0,00[0m[34;22m      0,00[0m[35;1m     67,00[0m
+19:09:06   [32;22m     all[0m[34;1m     31,23[0m[34;22m      0,00[0m[34;1m      2,27[0m[34;22m      0,00[0m[34;22m      0,00[0m[35;1m     66,50[0m
+19:09:07   [32;22m     all[0m[34;1m     32,67[0m[34;22m      0,00[0m[34;1m      2,00[0m[34;22m      0,00[0m[34;22m      0,00[0m[35;1m     65,34[0m
+19:09:08   [32;22m     all[0m[34;1m     31,23[0m[34;22m      0,00[0m[34;1m      1,01[0m[34;22m      0,00[0m[34;22m      0,00[0m[35;1m     67,76[0m
+19:09:09   [32;22m     all[0m[34;1m     32,08[0m[34;22m      0,00[0m[34;1m      2,26[0m[34;22m      0,00[0m[34;22m      0,00[0m[35;1m     65,66[0m
+19:09:10   [32;22m     all[0m[34;1m     31,57[0m[34;22m      0,00[0m[34;1m      1,52[0m[34;22m      0,00[0m[34;22m      0,00[0m[35;1m     66,92[0m
+19:09:11   [32;22m     all[0m[34;1m     31,74[0m[34;22m      0,00[0m[34;1m      1,76[0m[34;22m      0,00[0m[34;22m      0,00[0m[35;1m     66,50[0m
+19:09:12   [32;22m     all[0m[34;1m     31,08[0m[34;22m      0,00[0m[34;1m      1,75[0m[34;22m      0,00[0m[34;22m      0,00[0m[35;1m     67,17[0m
+19:09:13   [32;22m     all[0m[34;1m     31,65[0m[34;22m      0,00[0m[34;1m      2,03[0m[34;22m      0,00[0m[34;22m      0,00[0m[35;1m     66,33[0m
+19:09:14   [32;22m     all[0m[34;1m     31,23[0m[34;22m      0,00[0m[34;1m      1,51[0m[34;22m      0,00[0m[34;22m      0,00[0m[35;1m     67,25[0m
+19:09:15   [32;22m     all[0m[34;1m     31,23[0m[34;22m      0,00[0m[34;1m      1,76[0m[34;22m      0,00[0m[34;22m      0,00[0m[35;1m     67,00[0m
+19:09:16   [32;22m     all[0m[34;1m     30,33[0m[34;22m      0,00[0m[34;1m      2,51[0m[34;22m      0,00[0m[34;22m      0,00[0m[35;1m     67,17[0m
+19:09:17   [32;22m     all[0m[34;1m     31,75[0m[34;22m      0,00[0m[34;1m      1,75[0m[34;22m      0,00[0m[34;22m      0,00[0m[35;1m     66,50[0m
+19:09:18   [32;22m     all[0m[34;1m     31,66[0m[34;22m      0,00[0m[34;1m      2,01[0m[34;22m      0,00[0m[34;22m      0,00[0m[35;1m     66,33[0m
+^C
+
+Average:   [32;22m     all[0m[34;1m     31,42[0m[34;22m      0,00[0m[34;1m      1,90[0m[34;22m      0,00[0m[34;22m      0,00[0m[35;1m     66,67[0m
+]0;agrosy@agrosy-desktop: ~/git/thesis_experiments_using_linux_commands[01;32magrosy@agrosy-desktop[00m:[01;34m~/git/thesis_experiments_using_linux_commands[00m$ l
+total 612
+drwxrwxr-x 3 agrosy agrosy   4096 Mai 26 17:13 [0m[01;34mPC[0m
+-rw-rw-r-- 1 agrosy agrosy   2501 Mai 26 17:13 tegrastats.txt
+drwxrwxr-x 2 agrosy agrosy   4096 Mai 26 17:13 [01;34mssd_keras[0m
+-rw-rw-r-- 1 agrosy agrosy   1399 Mai 26 17:13 README.md
+-rwxrwxr-x 1 agrosy agrosy    480 Mai 26 17:13 [01;32mdata_cut.sh[0m
+-rwxrwxr-x 1 agrosy agrosy     46 Mai 26 17:13 [01;32mcpu_data_capture.sh[0m
+-rw-rw-r-- 1 agrosy agrosy    364 Mai 26 17:13 cpu_1305.txt
+drwxrwxr-x 3 agrosy agrosy   4096 Mai 26 17:14 [01;34mjetson[0m
+-rw-rw-r-- 1 agrosy agrosy   7534 Mai 26 17:18 cpu_base_ssd7_keras_2605.txt
+-rwxrwxr-x 1 agrosy agrosy    188 Mai 26 17:28 [01;32mtegrastats_cut.sh[0m
+-rw-rw-r-- 1 agrosy agrosy  13639 Mai 26 17:39 gpu_base_ssd7_keras_2605.txt
+-rw-rw-r-- 1 agrosy agrosy 564601 Mai 26 19:08 cpu_pruned_stripd_20to80p_2202_2605.txt
+-rw-rw-r-- 1 agrosy agrosy      0 Mai 26 19:09 cpu_pruned_stripd_20to80p_2202_2605_2.txt
+]0;agrosy@agrosy-desktop: ~/git/thesis_experiments_using_linux_commands[01;32magrosy@agrosy-desktop[00m:[01;34m~/git/thesis_experiments_using_linux_commands[00m$ exit
+
+Script done on 2022-05-26 19:09:48+0200
